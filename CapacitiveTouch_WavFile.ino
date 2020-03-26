@@ -65,7 +65,7 @@ void loop() {
     if ((currtouched & _BV(i)) && !(lasttouched & _BV(i)) ) {
       Serial.print(i); Serial.println(" touched");
       if(i == 5){
-        tmrpcm.play("test.wav")
+        tmrpcm.play("test.wav");
       }
     }
     // if it *was* touched and now *isnt*, alert!
