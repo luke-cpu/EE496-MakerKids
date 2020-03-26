@@ -40,7 +40,7 @@ void setup(){
     return;
   }
   tmrpcm.setVolume(3); // Sets volume of speaker *goes up to 10, but 6 is max for our set up*
-  tmrpcm.play("test.wav"); // A test wav file currently in the sd card; not connected to a capacitive touch and plays upon startup
+  //tmrpcm.play("test.wav"); // A test wav file currently in the sd card; not connected to a capacitive touch and plays upon startup
   while (!Serial) { // needed to keep Arduino from starting up too fast
     delay(100);
   }
